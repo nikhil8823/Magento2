@@ -1,0 +1,22 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<div class="field is_seller<?php if ($block->isRequired()) echo ' required' ?>">
+    <label class="label" for="<?php /* @escapeNotVerified */ echo $block->getFieldId('is_seller')?>"><span><?php /* @escapeNotVerified */ echo __('Is Seller') ?></span></label>
+    <div class="control">
+        <select id="<?php /* @escapeNotVerified */ echo $block->getFieldId('is_seller')?>" name="is_seller" title="<?php /* @escapeNotVerified */ echo __('Is Seller') ?>"<?php if ($block->isRequired()):?> class="validate-select" data-validate="{required:true}"<?php endif; ?> >
+            <?php //$options = $block->getGenderOptions(); ?>
+            <?php //$value = $block->getGender();?>
+            <?php //foreach ($options as $option):?>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            <?php //endforeach;?>
+        </select>
+    </div>
+</div>

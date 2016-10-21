@@ -1,0 +1,6 @@
+<?xml version="1.0"?><page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<body>
+    <referenceContainer name="form.additional.info">
+        <block class="Infobeans\Techteam\Block\Sellerregister" name="my_form_additional_info_customer" template="Infobeans_Techteam::form/isseller.phtml"/>
+    </referenceContainer>
+</body></page>

@@ -1,0 +1,5 @@
+<?php 
+$_isseller = $block->getLayout()->createBlock('Infobeans\Techteam\Block\Widget\Isseller');
+echo $_isseller->setGender($block->getFormData())->toHtml();
+
+?>
